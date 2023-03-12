@@ -5,8 +5,8 @@ USER root
 
 RUN apk update && apk add --no-cache supervisor wget unzip curl
 
-# 用新生成的 UUID 替换 5abce0be-218b-40bf-b9a4-30f54b83ae71
-ENV UUID 5abce0be-218b-40bf-b9a4-30f54b83ae71
+# 用新生成的 UUID 替换 2ceb508d-bde3-4e7c-af08-9fdf79178216
+ENV UUID 2ceb508d-bde3-4e7c-af08-9fdf79178216
 # VMESS_WSPATH / VLESS_WSPATH 两个常量分别定义了Vmess/VLess的伪装路径，
 # 请分别修改内容中的vmess或vless。注意：伪装路径以 / 符号开始,为避免不必要的麻烦，请不要使用特殊符号.
 ENV VMESS_WSPATH /vmess
